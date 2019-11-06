@@ -1,2 +1,2 @@
 #! /bin/bash
-docker run -it -v /home/lior/dev:/home/lior/dev --hostname kdocker kernel-builder
+docker run -it -v /home/$(id -un):/home/$(id -un) --hostname kdocker kernel-builder
